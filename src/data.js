@@ -1,10 +1,9 @@
 /* Manejo de data */
 
-// esta es una función de ejemplo
-// puedes ver como agregamos la función a nuestro objeto global window
-
-const example = () => {
-  return 'example';
-};
-
-window.example = example;
+function filterData (data,species){
+  let filterResult = data.filter(element =>{
+    return element.species.includes(species)
+  })
+  return filterResult
+}
+window.filterData = filterData;

@@ -1,20 +1,82 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Data Lovers</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root"></div>
-    <!-- <script src="./data/injuries/injuries.js"></script> -->
-    <!-- <script src="./data/pokemon/pokemon.js"></script> -->
-    <!-- <script src="./data/steam/steam.js"></script> -->
-    <!-- <script src="./data/worldbank/worldbank.js"></script> -->
-    <!-- <script src="./data/lol/lol.js"></script> -->
-    <!-- <script src="./data/patient/patient.js"></script> -->
-    <!-- <script src="./data/rickandmorty/rickandmorty.js"></script> -->
-    <script src="data.js"></script>
-    <script src="main.js"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Data Lovers</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <div class="row" id="page-rickandmorty">
+
+    <div id="menu" class="header">
+
+
+      <header>
+        <div class="container-img">
+          <img id="rickandmorty" src="https://i.ibb.co/99Tt74F/foto.png">
+
+
+        </div>
+      </header>
+
+      <section>
+
+        <div id="selects">
+
+          <div id="select-filter">
+            <select id="rickandmorty-p" name="filt" class="rickandmorty">
+              <option value="Selected">Choose by species</option>
+              <option value="Alien">Alien</option>
+              <option value="Human">Human</option>
+              <option value="Humanoid">Humanoid</option>
+              <option value="Poopybutthole">Poopybutthole</option>
+              <option value="Mytholog">Mytholog</option>
+              <option value="Animal">Animal</option>
+              <option value="Vampire">Vampire</option>
+              <option value="Robot">Robot</option>
+              <option value="Cronenberg">Cronenberg</option>
+              <option value="Parasite">Parasite</option>
+              <option value="Disease">Disease</option>
+              <option value="Unknown">Unknown</option>
+
+            </select>
+
+          </div>
+
+          <div id="order-AZ">
+            <select name="select" id="duck">
+             <option value="value1">Order-AZ</option> 
+             <option value="a-z">a-z</option>
+             <option value="z-a">z-a</option>
+            </select>
+          </div>
+
+        </div>
+
+        </select>
+      </section>
+
+
+
+
+
+      <div id="root"></div>
+
+
+
+
+
+
+
+
+
+      <script src="./data/rickandmorty/rickandmorty.js"></script>
+      <script src="main.js"></script>
+      <script src="data.js"></script>
+
+</body>
+
 </html>
